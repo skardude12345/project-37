@@ -89,7 +89,7 @@ function draw() {
       gameState = "end";
     }
       
-    camera.x = elephant.x;
+    camera.position.x= camera.position.x+14;
   
     
   } else if (gameState ==="end"){
