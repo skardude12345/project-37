@@ -184,6 +184,8 @@ function reset(){
   elephant.velocityX = 14;
   elephant.x = width/2
   
+  camera.position.x = elephant.x;
+  
   obstaclesGroup.destroyEach();
   cloudsGroup.destroyEach(); 
   
